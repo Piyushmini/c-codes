@@ -1,0 +1,14 @@
+using System;
+
+public class GFG{
+	static public void Main (){
+		float p,r,t;
+		
+		p=Convert.ToInt32(Console.ReadLine());
+	    r=Convert.ToInt32(Console.ReadLine());
+	    t=Convert.ToInt32(Console.ReadLine());
+	   
+	    Console.WriteLine((p*r*t)/100);
+	
+}
+}
