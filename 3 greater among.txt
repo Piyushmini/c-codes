@@ -1,0 +1,22 @@
+using System;
+
+public class GFG{
+	static public void Main (){
+		int a,b,c;
+		a=Convert.ToInt32(Console.ReadLine());
+	    b=Convert.ToInt32(Console.ReadLine());
+     	c=Convert.ToInt32(Console.ReadLine());
+     	if(a>b&&a>c){
+     	
+     	    Console.WriteLine("a is greater");
+     	}
+     	else if(b>c){
+     	    Console.WriteLine("b is greater");
+     	}
+     	else{
+     	    Console.WriteLine("c is greater");
+     	}
+     
+	
+}
+}
