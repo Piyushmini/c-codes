@@ -1,0 +1,17 @@
+using System;
+
+public class GFG{
+	static public void Main (){
+		int n;
+		
+		n=Convert.ToInt32(Console.ReadLine());
+	
+	   if(n%400==0||n%4==0&&n%100!=0){
+	       Console.WriteLine("leap");
+	   }
+	   else{
+	       Console.WriteLine("not leap");
+	   }
+	
+}
+}
